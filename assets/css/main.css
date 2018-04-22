@@ -1,0 +1,167 @@
+html {
+    background: #e6e9e9;
+    background: linear-gradient(to left, #3a6186 , #89253e);
+    -webkit-font-smoothing: antialiased;
+}
+/*
+Installation of same of font-family
+Using .tff 
+*/
+@font-face {
+    font-family: Lora;
+    src: url(../font/Lora/Lora-Regular.ttf);
+}
+
+@font-face {
+    font-family: Dosis;
+    src: url(../font/Dosis/Dosis-Regular.ttf);
+}
+
+@font-face {
+    font-family: Mallanna;
+    src: url(../font/Mallanna/Mallanna-Regular.ttf);
+}
+
+@font-face {
+    font-family: CormorantGaramond;
+    src: url(../font/CormorantGaramond/CormorantGaramond-Regular.ttf);
+}
+
+body {
+    max-width: auto;
+    /*
+    Font-family using in style
+    */
+    font-family: "Lora",sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    background: linear-gradient(to left, #3a6186 , #89253e);
+    box-shadow: 0 0 2px rgba(0,0,0,0.06);
+    padding-bottom: 75px;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+}
+
+h1,p {
+    font-weight: 600;
+    line-height: 1.3;
+    color: #fff;
+}
+
+.paragraphe {
+    padding-left: 10px;
+    /*
+    Font-family using in style
+    */
+    font-family: "Dosis",sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+.problematic,
+.definition {
+    color: #039be5;
+}
+
+#navbar {
+    z-index: 10;
+}
+
+.Acceuil {
+    justify-content: space-between;
+    margin: 1em;
+    padding: 1em;
+    background-color: #000;
+}
+
+header > h1 {
+    height: 76px;
+    margin-top: 0;
+}
+
+.presentation {
+    display: -webkit-flex;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    height: 370px;
+    margin: 3em;
+    padding: 10px;
+    max-width: 100%;
+    border: 10px solid rgb(3,155,239);
+    border-radius: 4px;
+    background: #34495eff;
+    background: transparent;
+    animation: colorize 2s cubic-bezier(0,0,.78,.36) 1;
+}
+
+.showcase-left {
+    background-image: url(../images/Sony-virtual-reality.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.showcase-right {
+    background-image: url(../images/Augmented%20reality-glasses.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ar, .vr{
+    color: #000;
+}
+
+
+.definition{
+    color: #545454;
+}
+
+.pad {
+    padding-left: 400px;
+}
+
+#footer {
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 75px;
+    color: #039be5;
+    background-color: #000;
+    /*
+    Setting footer motion
+    */
+    z-index: 10;
+}
+
+.history {
+    color: #039be5;
+    font-weight: bold;
+    font-size: 24px;
+    /*
+    Font-family using in style
+    */
+    font-family: "Lora",sans-serif;
+    text-shadow: 2px 2px 2px black;
+}
+
+.history ul li p {
+    color: #fff;
+    text-shadow: 2px 2px 2px black;
+}
+.well, h1{
+    color: #039be5;
+}
+
+.contents{
+    padding-left: 10em;
+}

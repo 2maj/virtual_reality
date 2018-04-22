@@ -1,0 +1,9 @@
+/*
+ Mobile style
+*/
+.mobile, .vr, .ar{
+    font-size: 16px;
+}
+.choice > .definition{
+    color:aqua;
+}

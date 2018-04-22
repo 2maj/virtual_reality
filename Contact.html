@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Virtual reality</title>
+    
+    <link rel="stylesheet" href="assets/css/bootstrap-3.3.7/dist/css/bootstrap.min.css">
+  <script src="assets/js/jQuery%203.2.1.js"></script>
+  <script src="assets/css/bootstrap-3.3.7/dist/js/bootstrap.min.js"></script>
+    <script src="assets/scrollreveal/scrollreveal.js"></script>
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/main-xs.css" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <div>
+                <div>
+                    <div id="logo" class="col-lg-2">
+                        <img class="visible-xs" src="assets/images/logo_mobile.png" alt="Logo" title="Logo"/>
+                        <img class="hidden-xs" src="assets/images/logo.png" alt="Logo" title="Logo" width="75px" height= "75px"/>
+                    </div>
+                    <div class="col-xs-8 col-lg-10">
+                        <h1 class="hidden-xs">Virtual reality & Augmented reality</h1>
+                        <!--<h4 class="visible-xs">Virtual reality & Augmented reality</h4>-->
+                    </div>
+                </div>
+                <div class="hidden-xs problematic">
+                    <h2>A perspective for the future ?</h2>
+                </div>
+            </div>
+		
+		<nav class="navbar navbar-default affix" id ="navbar">
+		  <div class="container-fluid">
+			<div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only lg-only">Objets connectés</span>
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+			  <a class="navbar-brand" href="./index.html">Virtual reality</a>
+			</div>
+                          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+			<ul class="nav navbar-nav">
+				<li><a href="index.html">Home</a> </li>
+				<li class="dropdown">
+				  <a class="dropdown-toggle" data-toggle="dropdown">VR <span class="caret"></span></a>
+				  <ul class="dropdown-menu">
+                      <li><a href="VR/VR.html">Virtual reality</a></li>
+					<li><a href="VR/History.html">History</a></li>
+					<li><a href="VR/Applications.html">Applications</a></li>
+					<li><a href="VR/Future.html">Future perpectives</a></li>
+				  </ul>
+				</li>
+				<li class="dropdown">
+				  <a class="dropdown-toggle" data-toggle="dropdown" href="#">AR <span class="caret"></span></a>
+				  <ul class="dropdown-menu">
+                      <li><a href="AR/AR.html">Augmented reality</a></li>
+					<li><a href="AR/History.html">History</a></li>
+					<li><a href="AR/Applications.html">Applications</a></li>
+					<li><a href="AR/Future.html">Future perpectives</a></li>
+				  </ul>
+				</li>
+				<li class="active"><a href="Contact.html">Contact</a></li>
+				<li><a href="About.html">About</a></li>
+			</ul>
+		  </div>
+            </div>
+		</nav>
+    </header>
+    
+    <!-- Contents -->
+    <section id="contact">
+        <p class="paragraphe">If you are same questions or recommendation, please text us.</p>
+       <div class="row">
+           <div class="hidden-xs col-lg-3"></div>
+                <div class="contact col-lg-5 col-centered">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" >
+                            <h1>Contact us</h1>
+                        </div>
+                    <form action="" method="POST">
+                    <div class="panel-body">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-user blue"></i></span>
+                                <input type="text" name="InputName" placeholder="First name, name" class="form-control" autofocus="autofocus" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-envelope blue"></i></span>
+                                <input type="email" name="InputEmail" placeholder="Email" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-phone blue"></i></span>
+                                <input type="number" name="InputCno" placeholder="Phone number" class="form-control" default>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-comment blue"></i></span>
+                                <textarea name="InputMessage" rows="6" class="form-control" type="text"
+                                          placeholder="Your message"required></textarea>
+                            </div>
+                        </div>
+                        <div class="">
+                        <button type="submit" class="btn btn-info pull-right"><i class="fa fa-paper-plane" aria-hidden="true"></i>Send <span class="glyphicon glyphicon-send"></span></button>
+                            <button type="reset" value="Reset" name="reset" class="btn">Cancel <span class="glyphicon glyphicon-refresh"></span></button>
+                        </div>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <p>&copy; 2017</p>
+    </footer>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
